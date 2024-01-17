@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scarlett</title>
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon" />
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <!-- BOXICONS -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -18,16 +22,19 @@
     />
   </head>
   <body>
+    <div class="loader" id="loader">
+      <img src="img/loader.gif" alt="gif-img" />
+    </div>
     <!-- HEADER -->
     <header>
       <div class="nav container">
         <a href="#" class="logo">Scarlett</a>
         <div class="navbar">
-          <li><a href="#" class="nav-link">About Us</a></li>
-          <li><a href="#" class="nav-link">Services</a></li>
-          <li><a href="#" class="nav-link">Package</a></li>
-          <li><a href="#" class="nav-link">Testimonial</a></li>
-          <li><a href="#" class="nav-link">Contact Us</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#packages" class="nav-link">Package</a></li>
+          <li><a href="#testimonial" class="nav-link">Testimonial</a></li>
+          <li><a href="#contact" class="nav-link">Contact Us</a></li>
           <a href="#" class="register-btn btn">Register</a>
         </div>
         <!-- menu icon -->
@@ -267,6 +274,41 @@
         </div>
       </div>
     </section>
+    <!-- FOOTER -->
+    <section class="section footer">
+      <div class="footer-container container">
+        <div class="footer-box">
+          <a href="#" class="logo">Scarlett</a>
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Services</h3>
+          <a href="#">Skin</a>
+          <a href="#">Hair</a>
+          <a href="#">Manicure</a>
+        </div>
+        <div class="footer-box">
+          <h3>Legal</h3>
+          <a href="#">Privacy</a>
+          <a href="#">Refund Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <p>United States</p>
+          <p>Japan</p>
+          <p>Germany</p>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>&#169; Scarlett</p>
+    </div>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
